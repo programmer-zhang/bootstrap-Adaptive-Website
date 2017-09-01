@@ -1,0 +1,188 @@
+body{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 131px;
+    background-color: #f7f7f7;
+}
+
+
+
+/*banner图部分*/
+.banner-button{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/*中间summary部分*/
+.middle-info{
+    margin: 0 auto;
+    height: 130px;
+    width: 100%;
+}
+
+.middle-info h1{
+    color: #cd995a;
+}
+
+.summary{
+    background-color: #fff;
+    margin-bottom:42px;
+}
+
+
+.summary-info h4{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.summary-info p{
+    padding-top: 15px;
+}
+
+.summary-button-t{
+    border: 1px solid #cd995a;
+    background-color: #cd995a;
+    color: #fff;
+}
+
+.summary-button-b{
+    border: 1px solid #cd995a;
+    background-color: #fff;
+    color: #cd995a;
+}
+
+.summary-img {
+    height: 253px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*中间member部分*/
+.member{
+    height: 331px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.member img{
+    height: 331px;
+    width:100%;
+}
+
+.member-main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.member-main p a{
+    background-color: #cd995a;
+    border-color: #cd995a;
+    color: #fff;
+}
+
+/*媒体查询部分代码*/
+@media (max-width: 767px) {
+    body{
+        padding-top: 50px;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    h3{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .cd-primary-nav li:first-of-type{
+        margin-top: 50px;
+    }
+
+    .cd-primary-nav li{
+        display: inline-block;
+        /*float: left;*/
+        height: 40px;
+        width:90%;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .item.active{
+        height: 300px;
+    }
+
+    .item.active img{
+        height: 300px;
+    }
+
+    .cd-primary-nav{
+        position: fixed;
+        top: 0px;
+        right: 0;
+        bottom:0;
+        left:0;
+        z-index: 999;
+        height:100%;
+        overflow: hidden;
+        background-color: #fff;
+        transiton:all .2s ease-in-out;
+        color: #bababa;
+    }
+
+    .middle-info{
+        height: 80px;
+    }
+
+    .summary-col img{
+        height: 200px;
+    }
+
+    .member{
+        height: 200px;
+    }
+
+    .member img{
+        height: 200px;
+    }
+
+    .footer{
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .footer .row{
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .footer .phone-s, .phone{
+        line-height: 50px;
+    }
+
+    .barbtn{
+        display: inline;
+        position: fixed;
+        /*bottom: 50px;*/
+        width: auto;
+        height: 50px;
+        background-color: #fff;
+    }
+
+}
+

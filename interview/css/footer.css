@@ -1,0 +1,26 @@
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 131px;
+    width: 100%;
+    background-color: #23282a;
+    color: #fff;
+    overflow: hidden;
+}
+
+.footer .phone-s, .phone{
+    line-height: 131px;
+}
+
+.footer .phone span, a{
+    margin-right:15px;
+}
+
+.footer .phone a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.barbtn{
+    display: none;
+}

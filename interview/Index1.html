@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>这个是</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/commons.css">
+    <link rel="stylesheet" href="css/layer.css">
+
+    <script src="js/modernizr.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+<!--页面头部-->
+<div class="header" id="header">
+    <nav class="navbar navbar-default navbar-fixed-top text-right">
+        <div class="container container-fluid header-info">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <span class="logo">LOGO</span>
+                </a>
+
+                <!--全屏幕导航触发点-->
+                <button class="navbar-toggle cd-nav-trigger" id="button"  data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <!--导航条选项卡-->
+            <div class="collapse navbar-collapse navStyle">
+                <div class="menu-icon">
+                    <a href="javascript:;" class="glyphicon glyphicon-remove"></a>
+                </div>
+                <div id="navStyle">
+                    <ul class="nav navbar-nav cd-primary-nav" id="cd-primary-nav">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">我们的课程</a></li>
+                        <li><a href="#">活动园地</a></li>
+                        <li><a href="#">新闻快递</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--轮播图部分-->
+<div class="page-banner">
+    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#ad-carousel" data-slide-to="1"></li>
+            <li data-target="#ad-carousel" data-slide-to="2"></li>
+            <li data-target="#ad-carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner.gif" alt="banner">
+                <div class="container">
+                    <div class="carousel-caption row col-md-4">
+                        <h1 class="text-left">THERE IS NO BETTER WAY TO LEARN
+                        </h1>
+                        <h3 class="text-left">青少年英语<span>/</span>成人英语</h3>
+                        <p class="text-left"><a class="btn banner-button" href="#"
+                              role="button" target="_blank">查看详情</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--中间位置图片及文字部分-->
+<div class="row-fluid text-center middle-info container">
+    <h1>我们的课程</h1>
+    <h3>OUR COURSE</h3>
+</div>
+<div class="container summary">
+    <div class="row" id="summary-container">
+        <div class="summary-col">
+            <div class="col-md-3">
+                <img class="img-responsive summary-img summary-img-l" src="images/img-l.gif" alt="left">
+            </div>
+            <div class="col-md-3 summary-info">
+                <h3>青少儿英语</h3>
+                <h4>ENGLISH FOR KIDS</h4>
+                <p>青少儿英语依据当今青少儿的心理特点，由教研团队及行业资深中外教合作研发出青少儿专属课程...</p>
+                <p class="text-right"><a class="btn btn-default summary-button-t" href="#" role="button">现在预约</a></p>
+            </div>
+        </div>
+        <div class="summary-col">
+            <div class="col-md-3">
+                <img class="img-responsive summary-img" src="images/img-r.gif" alt="right">
+            </div>
+            <div class="col-md-3 summary-info">
+                <h3>TOM少儿英语</h3>
+                <h4>TOM ENGLISH FOR KIDS</h4>
+                <p>青少儿英语依据当今青少儿的心理特点，由教研团队及行业资深中外教合作研发出青少儿专属课程...</p>
+                <p class="text-right"><a class="btn btn-default summary-button-b" href="#" role="button">现在预约</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- member部分 -->
+<div class="page-member">
+    <div class="member">
+        <img src="images/bottom.gif" class="img-responsive">
+        <div class="container">
+            <div class="row">
+                <div class="member-main text-center col-md-4">
+                    <h1>学员专区</h1>
+                    <p>MEMBER AREA</p>
+                    <p>在学员专区您可以找到最新的学习资料，了解最新的课程规划，班级活动的预约
+                        认识更多朋友，探索更美好的世界！</p>
+                    <p><a class="btn btn-default btn-lg" href="#"
+                          role="button" target="_blank">了解更多</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer部分 -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left phone-s">
+                <p>版权所有©2009 XXXXXXXX英语培训学校  京ICP备99898978号</p>
+            </div>
+            <div class="col-md-6 text-right phone">
+                <p><span><img src="images/phone-s.gif" alt=""></span><a href="#">在线客服</a>
+                    <span><img src="images/phone.gif" alt=""></span>400-676-6083</p>
+            </div>
+        </div>
+        <!--悬浮框设计-->
+        <div class="row barbtn" id="barbtn">
+            <div class="col-xs-4"><a class="btn btn-default" role="button" href="#"><span><img
+                    src="images/time.gif"></span>现在预约</a></div>
+            <div class="col-xs-4"><a class="btn btn-default" role="button" href="#"><span><img src="images/phone-s-z.gif"></span>咨询电话</a></div>
+            <div class="col-xs-4"><a class="btn btn-default" role="button" href="#"><span><img src="images/phone-z.gif"></span>在线咨询</a></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

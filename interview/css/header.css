@@ -1,0 +1,38 @@
+
+.header{
+    background-color: #fff;
+}
+
+.logo{
+    color: #bababa;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.menu-icon{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    float: right;
+    height: 50px;
+    width: 50px;
+    z-index: 1001;
+    font-size: 35px;
+    overflow: hidden;
+}
+
+
+.navStyle ul{
+    list-style: none;
+    line-height: 50px;
+    float: right;
+}
+
+.navStyle ul li{
+    font-size: 18px;
+}
+
+.navStyle ul li:hover{
+    border-bottom: 2px solid #cd995a;
+}
